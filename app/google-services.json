@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "478651816053",
+    "project_id": "news-and-blogs-app",
+    "storage_bucket": "news-and-blogs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478651816053:android:44bddb3f1d555e91ab403c",
+        "android_client_info": {
+          "package_name": "com.example.newsandblogsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478651816053-um0h5t8k1d8q4qahf1l3dm6nuenmeu97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzWqkZbTssE_fvl23kAOXKluDl6-EG1Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478651816053-um0h5t8k1d8q4qahf1l3dm6nuenmeu97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/articleParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="1dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="1dp"
+    android:layout_margin="-20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Cultured"
+        android:layout_margin="1dp"
+        android:padding="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/news"
+            android:background="@color/Dark_red"
+            android:textColor="@color/Cultured"/>
+        <TextView
+            android:paddingTop="17dp"
+            android:id="@+id/txtTitle1"
+            android:textColor="@color/Dark_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Title"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:textColor="@color/Dark_red"
+            android:id="@+id/txtSource1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitle1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:text="Contact Email"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageBook"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_below="@+id/txtSource1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_launcher_background" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Human Fate</string>
+    <string name="welcome">welcome to Human Fate</string>
+    <string name="guest">guest</string>
+    <string name="login">login</string>
+    <string name="signup">signup</string>
+    <string name="home">home</string>
+    <string name="watch">watch</string>
+    <string name="magazine">magazine</string>
+    <string name="more">more</string>
+    <string name="title">title</string>
+    <string name="source">source</string>
+
+    <string name="news">news</string>
+    <string name="articles">articles</string>
+    <string name="videos">videos</string>
+    <string name="books">books</string>
+    <string name="politics">politics</string>
+    <string name="sports">sports</string>
+    <string name="science">science</string>
+    <string name="philosophy">philosophy</string>
+    <string name="economy">economy</string>
+    <string name="technology">technology</string>
+    <string name="debate">debate</string>
+    <string name="regions">regions</string>
+    <string name="usa">uSA</string>
+    <string name="china">china</string>
+    <string name="russia">russia</string>
+    <string name="subcontinent">subcontinent</string>
+    <string name="africa">africa</string>
+    <string name="middleEast">middle East</string>
+    <string name="about">about</string>
+    <string name="contact">contact Us</string>
+    <string name="help">help</string>
+    <string name="profile">profile</string>
+    <string name="logout">logout</string>
+    <string name="username">enter user name</string>
+
+    <string name="access">login for magazine and books</string>
+    <string name="loginPE">Signup using email</string>
+    <string name="phoneNumber">phone number</string>
+    <string name="email">enter email</string>
+    <string name="password">enter password</string>
+    <string name="rePassword">re-enter password</string>
+    <string name="emailPhone">email / phone number</string>
+    <string name="forgetPass">Forget Password</string>
+
+    <string name="hello_blank_fragment">Ok</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="save">save</string>
+</resources>

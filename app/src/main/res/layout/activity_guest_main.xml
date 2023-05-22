@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark_red"
+    tools:openDrawer="start"
+    tools:context=".GuestMain">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/Dark_red"
+            android:id="@+id/tabs"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/tabs"
+            android:id="@+id/viewPager2"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false">
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomAppBar"
+            android:layout_gravity="bottom"
+            style="@style/Bottom_navigation_design"
+            app:menu="@menu/bottom_app_bar"
+            app:fabAlignmentMode="end"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Cultured"
+            android:id="@+id/floating"
+            app:srcCompat="@drawable/ic_menu"
+            app:layout_anchor="@id/bottomAppBar"
+            tools:ignore="VectorDrawableCompat" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/navMenu"
+            app:itemTextColor="@color/Dark_red"
+            app:menu="@menu/navigation_drawer_menu"
+            app:headerLayout="@layout/nav_header"
+            app:itemIconTint="@color/Dark_red"
+            android:layout_gravity="start"
+            tools:ignore="MissingConstraints" />
+</androidx.drawerlayout.widget.DrawerLayout>

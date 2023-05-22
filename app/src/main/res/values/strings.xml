@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Human Fate</string>
+    <string name="welcome">Welcome to Human Fate</string>
+    <string name="guest">As Guest</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="home">Home</string>
+    <string name="watch">Watch</string>
+    <string name="magazine">Magazine</string>
+    <string name="more">More</string>
+    <string name="title">Title</string>
+    <string name="source">Source</string>
+    <string name="logout">Logout</string>
+
+    <string name="news">News</string>
+    <string name="articles">Articles</string>
+    <string name="videos">Videos</string>
+    <string name="books">Books</string>
+    <string name="politics">Politics</string>
+    <string name="sports">Sports</string>
+    <string name="science">Science</string>
+    <string name="philosophy">Philosophy</string>
+    <string name="economy">Economy</string>
+    <string name="technology">Technology</string>
+    <string name="debate">Debate</string>
+    <string name="regions">Regions</string>
+    <string name="usa">USA</string>
+    <string name="china">China</string>
+    <string name="russia">Russia</string>
+    <string name="subcontinent">Subcontinent</string>
+    <string name="africa">Africa</string>
+    <string name="middleEast">Middle East</string>
+    <string name="about">About</string>
+    <string name="contact">Contact Us</string>
+    <string name="help">Help</string>
+    <string name="username">Enter User Name</string>
+
+
+    <string name="access">For access of our monthly magazine and books Login Please</string>
+    <string name="loginPE">Signup Using Email</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="rePassword">Re-Enter Password</string>
+    <string name="emailPhone">Email / Phone Number</string>
+    <string name="forgetPass">Forget Password</string>
+    <string name="profile">Profile</string>
+
+    <string name="hello_blank_fragment">Ok</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+</resources>
